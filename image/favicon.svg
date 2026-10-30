@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Red background circle -->
+  <circle cx="32" cy="32" r="32" fill="#dc2626"/>
+  <!-- Gold "M" -->
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Impact, Arial Black, sans-serif" font-size="36" font-weight="900"
+        fill="#fbbf24" letter-spacing="-2">MN</text>
+</svg>

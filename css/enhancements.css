@@ -98,3 +98,12 @@
   text-align: left !important;
   padding-left: 120px !important;
 }
+
+/* Contact form placeholder styling */
+#email-address::placeholder,
+#email-subject::placeholder,
+#email-message::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
