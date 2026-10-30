@@ -146,7 +146,7 @@
           <button class="warp-btn active" data-pos="0">🚩 Intro</button>
           <button class="warp-btn" data-pos="1800">🌱 Level 1 (About)</button>
           <button class="warp-btn" data-pos="7400">🌊 Level 2 (Skills)</button>
-          <button class="warp-btn" data-pos="13000">🤖 Level 3 (Experience)</button>
+          <button class="warp-btn" data-pos="13000">🤖 Level 3 (Projects)</button>
           <button class="warp-btn" data-pos="19200">🏆 Level 4 (Awards)</button>
           <button class="warp-btn" data-pos="max">✉️ Contact</button>
         </nav>
@@ -184,7 +184,7 @@
       <button class="cv-close-btn" id="btn-close-cv" aria-label="Close CV">✕</button>
       <div style="border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 18px; margin-bottom: 20px;">
         <h1 style="font-size: 28px; font-weight: 800; margin-bottom: 6px; color: #ffffff;">Manav Nagpal</h1>
-        <p style="color: #94a3b8; font-size: 15px;">Full-Stack Developer, Creative Technologist &amp; FC Bayern Fan</p>
+        <p style="color: #94a3b8; font-size: 15px;">First-Year Engineering Student • AI, Software &amp; Embedded Systems • FC Bayern Fan</p>
         <div style="margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap;">
           <button id="btn-print-action" class="hud-btn hud-btn-primary" style="padding: 6px 14px; font-size: 13px;">🖨️ Print / Save as PDF</button>
           <a href="mailto:manav.nagpal@example.com" class="hud-btn" style="padding: 6px 14px; font-size: 13px; text-decoration: none;">✉️ manav.nagpal@example.com</a>
@@ -200,8 +200,8 @@
       <div>
         <strong style="color: #cbd5e1; font-size: 13px; display: block; margin-bottom: 6px;">Graphic & Web Software:</strong>
         <span class="cv-badge">Photoshop (Expert)</span>
-        <span class="cv-badge">Illustrator (Expert)</span>
-        <span class="cv-badge">Sketch</span>
+        <span class="cv-badge">OpenSea / Web3</span>
+        <span class="cv-badge">Blender 3D</span>
         <span class="cv-badge">Figma</span>
       </div>
       <div style="margin-top: 10px;">
