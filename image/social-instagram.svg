@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <defs>
+    <radialGradient id="instaGrad" cx="30%" cy="105%" r="120%">
+      <stop offset="0%" stop-color="#fdf497"/>
+      <stop offset="5%" stop-color="#fdf497"/>
+      <stop offset="45%" stop-color="#fd5949"/>
+      <stop offset="60%" stop-color="#d6249f"/>
+      <stop offset="90%" stop-color="#285AEB"/>
+    </radialGradient>
+  </defs>
+  <!-- Background rounded square with crisp border matching Robby's 2D game style -->
+  <rect x="3" y="3" width="54" height="54" rx="14" fill="url(#instaGrad)" stroke="#ffffff" stroke-width="3"/>
+  <!-- Camera body -->
+  <rect x="14" y="14" width="32" height="32" rx="9" fill="none" stroke="#ffffff" stroke-width="3.5"/>
+  <!-- Center lens -->
+  <circle cx="30" cy="30" r="7" fill="none" stroke="#ffffff" stroke-width="3.5"/>
+  <!-- Viewfinder / flash dot -->
+  <circle cx="38.5" cy="21.5" r="2.2" fill="#ffffff"/>
+</svg>
