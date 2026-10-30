@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">
+  <defs>
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow-nagpal" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="5" flood-color="#071b2e" flood-opacity="0.45"/>
+    </filter>
+
+    <!-- Face Gradient -->
+    <linearGradient id="faceGradNagpal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="40%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+
+    <!-- Specular Gradient -->
+    <linearGradient id="specGradNagpal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#shadow-nagpal)" transform="translate(30, 20)">
+    <!-- 3D Extrusions -->
+    <text x="0" y="210" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="#713f12" letter-spacing="10">NAGPAL</text>
+    <text x="0" y="200" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="#854d0e" letter-spacing="10">NAGPAL</text>
+    <text x="0" y="190" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="#a16207" letter-spacing="10">NAGPAL</text>
+    <text x="0" y="180" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="#ca8a04" letter-spacing="10">NAGPAL</text>
+    <text x="0" y="170" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="#d97706" letter-spacing="10">NAGPAL</text>
+
+    <!-- Outer Thick White Outline -->
+    <text x="0" y="160" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="none" stroke="#ffffff" stroke-width="22" stroke-linejoin="round" letter-spacing="10">NAGPAL</text>
+
+    <!-- Main Front Face with Gradient -->
+    <text x="0" y="160" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="url(#faceGradNagpal)" stroke="#ca8a04" stroke-width="3" stroke-linejoin="round" letter-spacing="10">NAGPAL</text>
+
+    <!-- Highlight -->
+    <text x="0" y="152" font-family="'Arial Black', 'Impact', sans-serif" font-size="160" font-weight="900" fill="url(#specGradNagpal)" letter-spacing="10" opacity="0.6">NAGPAL</text>
+  </g>
+</svg>
