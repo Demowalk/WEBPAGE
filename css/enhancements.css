@@ -6,28 +6,28 @@
 #title-robby {
   position: absolute !important;
   left: 40px !important;
-  bottom: 270px !important;
+  bottom: 380px !important;
   width: 740px !important;
   height: 250px !important;
   background-image: url(../image/title-manav.svg) !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: left center !important;
-  z-index: 100 !important;
+  z-index: 5 !important;
   pointer-events: none;
 }
 
 #title-leonardi {
   position: absolute !important;
   left: 190px !important;
-  bottom: 55px !important;
+  bottom: 145px !important;
   width: 820px !important;
   height: 230px !important;
   background-image: url(../image/title-nagpal.svg) !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: left center !important;
-  z-index: 100 !important;
+  z-index: 5 !important;
   pointer-events: none;
 }
 
