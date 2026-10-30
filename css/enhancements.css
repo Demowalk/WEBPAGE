@@ -256,8 +256,31 @@
 }
 
 
-/* Title Stacking: MANAV NAGPAL in front of trees and bushes */
-#title-robby, #title-leonardi {
+/* Title Stacking: MANAV elevated, NAGPAL stepped below (Zero Overlap) */
+#title-robby {
+  position: absolute !important;
+  left: 40px !important;
+  bottom: 270px !important;
+  width: 740px !important;
+  height: 250px !important;
+  background-image: url(../image/title-manav.svg) !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  z-index: 100 !important;
+  pointer-events: none;
+}
+
+#title-leonardi {
+  position: absolute !important;
+  left: 190px !important;
+  bottom: 55px !important;
+  width: 820px !important;
+  height: 230px !important;
+  background-image: url(../image/title-nagpal.svg) !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
   z-index: 100 !important;
   pointer-events: none;
 }
@@ -298,14 +321,29 @@
   pointer-events: none !important;
 }
 
-/* Level 4: ABOUT ME & HOBBIES */
+/* Level 4: ABOUT ME (Top) & HOBBIES (Bottom) - Zero Overlap */
 #title-awards-and {
+  position: absolute !important;
+  left: 19700px !important;
+  bottom: calc(20% + 240px) !important;
+  width: 880px !important;
+  height: 250px !important;
   background-image: url(../image/title-about-and.svg) !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
+  background-position: left center !important;
+  z-index: 50 !important;
 }
+
 #title-publication {
+  position: absolute !important;
+  left: 19860px !important;
+  bottom: 20% !important;
+  width: 960px !important;
+  height: 240px !important;
   background-image: url(../image/title-hobbies.svg) !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
+  background-position: left center !important;
+  z-index: 50 !important;
 }
