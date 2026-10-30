@@ -270,3 +270,30 @@
 #skill-3-container, #ribbon-2-3 {
   display: none !important;
 }
+
+
+/* Jaipur Landmark: Hawa Mahal (Palace of Winds) */
+#hawa-mahal {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 880px;
+  height: 500px;
+  background-image: url(../image/hawa-mahal.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  z-index: 10;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.4));
+  pointer-events: none;
+}
+
+/* Hide the NYC skyscrapers completely */
+.building,
+#building-1,
+#building-2,
+#building-3 {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

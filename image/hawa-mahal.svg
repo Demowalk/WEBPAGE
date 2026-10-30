@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500">
+  <defs>
+    <!-- Stone Gradient for Main Facade -->
+    <linearGradient id="sandstoneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4aba0"/>
+      <stop offset="35%" stop-color="#e26b52"/>
+      <stop offset="75%" stop-color="#d0533b"/>
+      <stop offset="100%" stop-color="#992d1f"/>
+    </linearGradient>
+
+    <!-- Side Shadow Gradient for 3D Depth -->
+    <linearGradient id="sideShadowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#450a0a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#450a0a" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Dome Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="mahalShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="6" flood-color="#020f1e" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Jharokha (Casement Window) Symbol -->
+    <g id="jharokha-small">
+      <!-- Outer arch canopy -->
+      <path d="M 0,22 Q 15,2 30,22 L 30,52 Q 15,56 0,52 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+      <!-- Dome tip -->
+      <path d="M 11,2 C 11,-4 15,-8 15,-12 C 15,-8 19,-4 19,2 Z" fill="#fbbf24"/>
+      <circle cx="15" cy="-12" r="2.5" fill="#fbbf24"/>
+      <!-- White decorative cornice -->
+      <path d="M -3,22 Q 15,14 33,22" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Inner arch window cutout -->
+      <path d="M 6,24 Q 15,12 24,24 L 24,46 L 6,46 Z" fill="#2a110c"/>
+      <!-- Delicate white lattice (jaali) -->
+      <line x1="15" y1="18" x2="15" y2="46" stroke="#ffffff" stroke-width="1.2" opacity="0.8"/>
+      <line x1="9" y1="28" x2="21" y2="28" stroke="#ffffff" stroke-width="1.2" opacity="0.8"/>
+      <line x1="8" y1="36" x2="22" y2="36" stroke="#ffffff" stroke-width="1.2" opacity="0.8"/>
+      <line x1="9" y1="44" x2="21" y2="44" stroke="#ffffff" stroke-width="1.2" opacity="0.8"/>
+      <!-- White decorative dots around arch -->
+      <circle cx="9" cy="18" r="1.2" fill="#ffffff"/>
+      <circle cx="15" cy="14" r="1.4" fill="#ffffff"/>
+      <circle cx="21" cy="18" r="1.2" fill="#ffffff"/>
+      <!-- Base corbel bracket -->
+      <path d="M 2,52 L 28,52 L 22,64 L 8,64 Z" fill="#992d1f" stroke="#ffffff" stroke-width="1"/>
+    </g>
+
+    <!-- Grand Jharokha (Large Center Casement) Symbol -->
+    <g id="jharokha-large">
+      <!-- Curved Bengali / Bangaldar Canopy -->
+      <path d="M -4,32 C 10,12 36,12 50,32 L 46,74 Q 23,80 0,74 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2.5"/>
+      <!-- Large Gold Finial -->
+      <path d="M 19,16 C 19,6 23,0 23,-8 C 23,0 27,6 27,16 Z" fill="url(#goldGrad)"/>
+      <circle cx="23" cy="-8" r="4" fill="#fbbf24"/>
+      <!-- Intricate scalloped trim -->
+      <path d="M -8,32 Q 23,18 54,32" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- Three-arch window opening -->
+      <rect x="5" y="34" width="36" height="34" rx="4" fill="#2a110c"/>
+      <path d="M 7,42 Q 13,34 19,42 L 19,66 L 7,66 Z" fill="#451a14"/>
+      <path d="M 19,40 Q 23,30 27,40 L 27,66 L 19,66 Z" fill="#451a14"/>
+      <path d="M 27,42 Q 33,34 39,42 L 39,66 L 27,66 Z" fill="#451a14"/>
+      <!-- White floral lattice trim -->
+      <line x1="7" y1="52" x2="39" y2="52" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>
+      <line x1="7" y1="60" x2="39" y2="60" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>
+      <!-- Corbel bracket with carved support -->
+      <path d="M 2,74 L 44,74 L 36,92 L 10,92 Z" fill="#992d1f" stroke="#ffffff" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <g filter="url(#mahalShadow)">
+    <!-- ========================================== -->
+    <!-- BASE PLINTH & FOUNDATION (LEVEL 0)         -->
+    <!-- ========================================== -->
+    <rect x="20" y="475" width="840" height="25" fill="#992d1f" stroke="#52150d" stroke-width="3"/>
+    <rect x="30" y="460" width="820" height="15" fill="#d0533b" stroke="#992d1f" stroke-width="2"/>
+    <!-- Intricate base molding -->
+    <line x1="20" y1="475" x2="860" y2="475" stroke="#ffffff" stroke-width="3"/>
+    <line x1="30" y1="460" x2="850" y2="460" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- ========================================== -->
+    <!-- TIER 1 - GROUND FLOOR (Y: 380 to 460)      -->
+    <!-- Stepped Width: 800px                       -->
+    <!-- ========================================== -->
+    <rect x="40" y="380" width="800" height="85" fill="url(#sandstoneGrad)" stroke="#992d1f" stroke-width="3"/>
+    
+    <!-- White Decorative Cornice Strip -->
+    <rect x="30" y="375" width="820" height="8" fill="#ffffff"/>
+    
+    <!-- Tier 1 Arched Gateway / Colonnade Entrances -->
+    <!-- Left arches -->
+    <path d="M 70,460 L 70,410 Q 95,390 120,410 L 120,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 140,460 L 140,410 Q 165,390 190,410 L 190,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 210,460 L 210,410 Q 235,390 260,410 L 260,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 280,460 L 280,410 Q 305,390 330,410 L 330,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- Grand Central Gateway (Anandpol) -->
+    <rect x="360" y="380" width="160" height="85" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 385,465 L 385,405 Q 440,375 495,405 L 495,465 Z" fill="#2a110c" stroke="#fbbf24" stroke-width="3"/>
+    <path d="M 400,465 L 400,418 Q 440,395 480,418 L 480,465 Z" fill="#180704"/>
+    <!-- Brass Studs on Royal Wooden Gate -->
+    <circle cx="420" cy="435" r="3" fill="#fbbf24"/>
+    <circle cx="420" cy="450" r="3" fill="#fbbf24"/>
+    <circle cx="460" cy="435" r="3" fill="#fbbf24"/>
+    <circle cx="460" cy="450" r="3" fill="#fbbf24"/>
+    <!-- White cusped arch molding above main gate -->
+    <path d="M 380,405 Q 440,365 500,405" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Right arches -->
+    <path d="M 550,460 L 550,410 Q 575,390 600,410 L 600,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 620,460 L 620,410 Q 645,390 670,410 L 670,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 690,460 L 690,410 Q 715,390 740,410 L 740,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 760,460 L 760,410 Q 785,390 810,410 L 810,460 Z" fill="#2a110c" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- ========================================== -->
+    <!-- TIER 2 - SECOND LEVEL (Y: 290 to 380)      -->
+    <!-- Stepped Width: 720px                       -->
+    <!-- ========================================== -->
+    <rect x="80" y="295" width="720" height="85" fill="url(#sandstoneGrad)" stroke="#992d1f" stroke-width="3"/>
+    <rect x="70" y="290" width="740" height="7" fill="#ffffff"/>
+
+    <!-- Fluted corner cupolas on Tier 2 shoulders -->
+    <!-- Left Shoulder Chhatri -->
+    <path d="M 45,375 L 45,335 Q 65,305 85,335 L 85,375 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 60,305 C 60,298 65,294 65,286 C 65,294 70,298 70,305 Z" fill="#fbbf24"/>
+    <!-- Right Shoulder Chhatri -->
+    <path d="M 795,375 L 795,335 Q 815,305 835,335 L 835,375 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 810,305 C 810,298 815,294 815,286 C 815,294 820,298 820,305 Z" fill="#fbbf24"/>
+
+    <!-- 11 Jharokhas across Tier 2 -->
+    <!-- Left side -->
+    <use href="#jharokha-small" x="100" y="295"/>
+    <use href="#jharokha-small" x="155" y="295"/>
+    <use href="#jharokha-small" x="210" y="295"/>
+    <use href="#jharokha-small" x="265" y="295"/>
+    <use href="#jharokha-small" x="320" y="295"/>
+    <!-- Grand Center Casement -->
+    <use href="#jharokha-large" x="418" y="280"/>
+    <!-- Right side -->
+    <use href="#jharokha-small" x="525" y="295"/>
+    <use href="#jharokha-small" x="580" y="295"/>
+    <use href="#jharokha-small" x="635" y="295"/>
+    <use href="#jharokha-small" x="690" y="295"/>
+    <use href="#jharokha-small" x="745" y="295"/>
+
+    <!-- ========================================== -->
+    <!-- TIER 3 - THIRD LEVEL (Y: 200 to 290)       -->
+    <!-- Stepped Width: 580px                       -->
+    <!-- ========================================== -->
+    <rect x="150" y="205" width="580" height="90" fill="url(#sandstoneGrad)" stroke="#992d1f" stroke-width="3"/>
+    <rect x="140" y="200" width="600" height="7" fill="#ffffff"/>
+
+    <!-- Fluted corner cupolas on Tier 3 shoulders -->
+    <path d="M 115,290 L 115,250 Q 135,220 155,250 L 155,290 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 130,220 C 130,212 135,208 135,200 C 135,208 140,212 140,220 Z" fill="#fbbf24"/>
+    
+    <path d="M 725,290 L 725,250 Q 745,220 765,250 L 765,290 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 740,220 C 740,212 745,208 745,200 C 745,208 750,212 750,220 Z" fill="#fbbf24"/>
+
+    <!-- 7 Jharokhas across Tier 3 -->
+    <use href="#jharokha-small" x="175" y="205"/>
+    <use href="#jharokha-small" x="245" y="205"/>
+    <use href="#jharokha-small" x="315" y="205"/>
+    <!-- Grand Center Casement -->
+    <use href="#jharokha-large" x="418" y="190"/>
+    <use href="#jharokha-small" x="530" y="205"/>
+    <use href="#jharokha-small" x="600" y="205"/>
+    <use href="#jharokha-small" x="670" y="205"/>
+
+    <!-- ========================================== -->
+    <!-- TIER 4 - FOURTH LEVEL (Y: 115 to 200)      -->
+    <!-- Stepped Width: 420px                       -->
+    <!-- ========================================== -->
+    <rect x="230" y="120" width="420" height="85" fill="url(#sandstoneGrad)" stroke="#992d1f" stroke-width="3"/>
+    <rect x="220" y="115" width="440" height="7" fill="#ffffff"/>
+
+    <!-- Corner Chhatris on Tier 4 -->
+    <path d="M 195,200 L 195,160 Q 215,130 235,160 L 235,200 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 210,130 C 210,122 215,118 215,110 C 215,118 220,122 220,130 Z" fill="#fbbf24"/>
+    
+    <path d="M 645,200 L 645,160 Q 665,130 685,160 L 685,200 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 660,130 C 660,122 665,118 665,110 C 665,118 670,122 670,130 Z" fill="#fbbf24"/>
+
+    <!-- 5 Jharokhas across Tier 4 -->
+    <use href="#jharokha-small" x="255" y="120"/>
+    <use href="#jharokha-small" x="330" y="120"/>
+    <!-- Grand Center Casement -->
+    <use href="#jharokha-large" x="418" y="105"/>
+    <use href="#jharokha-small" x="515" y="120"/>
+    <use href="#jharokha-small" x="590" y="120"/>
+
+    <!-- ========================================== -->
+    <!-- TIER 5 - CROWN LEVEL (HAWA MANDIR)         -->
+    <!-- Stepped Width: 260px (Y: 45 to 115)        -->
+    <!-- ========================================== -->
+    <rect x="310" y="50" width="260" height="68" fill="url(#sandstoneGrad)" stroke="#992d1f" stroke-width="3"/>
+    <rect x="300" y="45" width="280" height="7" fill="#ffffff"/>
+
+    <!-- Corner Cupolas on Tier 5 -->
+    <path d="M 280,115 L 280,80 Q 295,55 315,80 L 315,115 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 295,55 C 295,48 298,44 298,38 C 298,44 301,48 301,55 Z" fill="#fbbf24"/>
+
+    <path d="M 565,115 L 565,80 Q 585,55 600,80 L 600,115 Z" fill="#e26b52" stroke="#992d1f" stroke-width="2"/>
+    <path d="M 582,55 C 582,48 585,44 585,38 C 585,44 588,48 588,55 Z" fill="#fbbf24"/>
+
+    <!-- Tier 5 Windows -->
+    <use href="#jharokha-small" x="345" y="52"/>
+    <use href="#jharokha-large" x="418" y="38"/>
+    <use href="#jharokha-small" x="500" y="52"/>
+
+    <!-- ========================================== -->
+    <!-- MAJESTIC TOP CROWN / CENTRAL CHHATRI       -->
+    <!-- (Y: 0 to 45)                               -->
+    <!-- ========================================== -->
+    <!-- Fluted Bengali Crown Dome -->
+    <path d="M 370,45 C 390,8 490,8 510,45 Z" fill="url(#sandstoneGrad)" stroke="#992d1f" stroke-width="3"/>
+    <path d="M 360,45 Q 440,24 520,45" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Central Ornate Gold Finial (Kalasa & Dhwaja) -->
+    <path d="M 432,12 C 432,2 440,-6 440,-18 C 440,-6 448,2 448,12 Z" fill="url(#goldGrad)"/>
+    <circle cx="440" cy="-18" r="6" fill="#fbbf24" stroke="#b45309" stroke-width="1"/>
+    <circle cx="440" cy="-28" r="3" fill="#fbbf24"/>
+    <!-- Fluttering Royal Saffron / Amber Flag atop Hawa Mahal -->
+    <polygon points="440,-28 472,-20 440,-12" fill="#f97316" stroke="#c2410c" stroke-width="1"/>
+
+    <!-- Miniature Flanking Finials -->
+    <path d="M 398,28 C 398,20 402,15 402,8 C 402,15 406,20 406,28 Z" fill="#fbbf24"/>
+    <circle cx="402" cy="8" r="3" fill="#fbbf24"/>
+
+    <path d="M 474,28 C 474,20 478,15 478,8 C 478,15 482,20 482,28 Z" fill="#fbbf24"/>
+    <circle cx="478" cy="8" r="3" fill="#fbbf24"/>
+
+    <!-- White intricate arabesque trim on the main crown -->
+    <path d="M 400,34 Q 440,16 480,34" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
