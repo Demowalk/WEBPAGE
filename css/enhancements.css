@@ -92,3 +92,9 @@
   background-position: left center !important;
   z-index: 50 !important;
 }
+
+/* Shift "Interactive Resume of" ribbon slightly to the right */
+#splash-container .ribbon-container {
+  text-align: left !important;
+  padding-left: 120px !important;
+}
