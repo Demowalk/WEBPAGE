@@ -254,3 +254,19 @@
     display: none;
   }
 }
+
+
+/* Title Stacking: MANAV NAGPAL in front of trees and bushes */
+#title-robby, #title-leonardi {
+  z-index: 100 !important;
+  pointer-events: none;
+}
+
+#tree-1, #tree-2, #tree-3, #tree-4, #tree-5, #tree-6 {
+  z-index: 5 !important;
+}
+
+/* Hide Video, 3D and Game Software section */
+#skill-3-container, #ribbon-2-3 {
+  display: none !important;
+}
