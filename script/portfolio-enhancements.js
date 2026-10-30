@@ -147,7 +147,7 @@
           <button class="warp-btn" data-pos="1800">🌱 Level 1 (About)</button>
           <button class="warp-btn" data-pos="7400">🌊 Level 2 (Skills)</button>
           <button class="warp-btn" data-pos="13000">🤖 Level 3 (Projects)</button>
-          <button class="warp-btn" data-pos="19200">🏆 Level 4 (Awards)</button>
+          <button class="warp-btn" data-pos="19200">🌟 Level 4 (About & Hobbies)</button>
           <button class="warp-btn" data-pos="max">✉️ Contact</button>
         </nav>
       </div>

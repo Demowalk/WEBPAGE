@@ -297,3 +297,15 @@
   visibility: hidden !important;
   pointer-events: none !important;
 }
+
+/* Level 4: ABOUT ME & HOBBIES */
+#title-awards-and {
+  background-image: url(../image/title-about-and.svg) !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+#title-publication {
+  background-image: url(../image/title-hobbies.svg) !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
